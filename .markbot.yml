@@ -39,6 +39,7 @@ css:
       - "translate"
       - "rgba\\("
       - "max-height"
+      - "overflow: hidden"
 
 screenshots:
   - path: "index.html"
