@@ -1,0 +1,45 @@
+repo: "hero-banner"
+canvasCourse: "467502"
+canvasAssignment: "4178306"
+
+naming: true
+commits: 2
+
+html:
+  - path: "index.html"
+    valid: true
+    bestPractices: true
+    has:
+      - "div"
+      - "div img"
+      - "div h2"
+      - "div p"
+    search:
+      - "Open\\+Sans"
+      - "Giant space moths invade Earth"
+      - "Our friendly giant, nuclear radiated lizard steps up to battle against the nefarious space moths"
+      - "placeholder-16by9\\.svg"
+
+css:
+  - path: "css/main.css"
+    valid: true
+    bestPractices: true
+    has:
+      - ['html', 'box-sizing', 'border-box']
+      - ['body', 'margin', 0]
+      - ['.img-flex', 'display', 'block']
+      - ['.img-flex', 'width', '100%']
+      - ['.banner']
+    search:
+      - "Open Sans"
+      - "position: relative"
+      - "position: absolute"
+      - "left:"
+      - "bottom:"
+      - "translate"
+      - "rgba\\("
+      - "max-height"
+
+screenshots:
+  - path: "index.html"
+    sizes: [650, 1400]
