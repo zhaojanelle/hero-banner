@@ -9,6 +9,7 @@
 
 - *Fork this repository.*
 - Use CSS `position` to make the hero banner text display in front of the image
+- Text can be found inside the `content.txt` file.
 - *Run it through Markbot and make sure it passes all the checks.*
 
 ---
