@@ -5,7 +5,7 @@
 
 ---
 
-**a**
+**Use CSS position to make a hero banner with text displayed in front of an image.**
 
 - *Fork this repository.*
 - Use CSS `position` to make the hero banner text display in front of the image
