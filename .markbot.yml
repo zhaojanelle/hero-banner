@@ -1,21 +1,26 @@
 repo: "hero-banner"
-canvasCourse: "467502"
-canvasAssignment: "4178306"
+canvasCourse: "web-dev-1"
 
 naming: true
-commits: 2
+restrictFileTypes: true
+liveWebsite: true
+
+git:
+  numCommits: 2
+  allCommitted: true
+  allSynced: true
 
 html:
   - path: "index.html"
     valid: true
     bestPractices: true
     has:
+      - ['link[href*="Open+Sans:400,700,400italic"]', 'The Google Font, `Open Sans` (regular, italic & bold) is missing']
       - "div"
-      - "div img"
+      - "div img.img-flex"
       - "div h2"
       - "div p"
     search:
-      - "Open\\+Sans"
       - "Giant space moths invade Earth"
       - "Our friendly giant, nuclear radiated lizard steps up to battle against the nefarious space moths"
       - "placeholder-16by9\\.svg"
@@ -26,6 +31,7 @@ css:
     bestPractices: true
     has:
       - ['html', 'box-sizing', 'border-box']
+      - ['*', 'box-sizing', 'inherit']
       - ['body', 'margin', 0]
       - ['.img-flex', 'display', 'block']
       - ['.img-flex', 'width', '100%']
