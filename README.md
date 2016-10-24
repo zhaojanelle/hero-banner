@@ -1,11 +1,12 @@
-# Hero banner
-
-- Approx. completion time: **1 hour**
-- Deliverables: **1 HTML file, 1 CSS file, images**
-
+---
+summary: 'Use CSS position to make a hero banner with text displayed in front of an image.'
+time: '1 hour'
+deliverables: '1 HTML file, 1 CSS file, images'
 ---
 
-**Use CSS position to make a hero banner with text displayed in front of an image.**
+# Hero banner
+
+## Overview
 
 - *Fork this repository.*
 - Use CSS `position` to make the hero banner text display in front of the image
