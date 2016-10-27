@@ -15,7 +15,7 @@ html:
     valid: true
     bestPractices: true
     has:
-      - ['link[href*="Open+Sans:400,700,400italic"]', 'The Google Font, `Open Sans` (regular, italic & bold) is missing']
+      - ['link[href*="Open+Sans:400,400i,700"]', 'The Google Font, `Open Sans` (regular, italic & bold) is missing']
       - "div"
       - "div img.img-flex"
       - "div h2"
