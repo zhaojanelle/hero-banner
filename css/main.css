@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 "Open Sans",sans-serif;
+  font: normal 100%/1.5 "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -20,6 +20,7 @@ body {
 
 .img-flex {
   width: 100%;
+  display: block;
 }
 
 .banner-content {
@@ -36,7 +37,7 @@ h1 {
   color: #fff;
   padding: 0;
   line-height: 1.4;
-  margin: 0 1rem 1.3rem;
+  margin: 0 1rem 1rem;
 }
 
 .heading {
