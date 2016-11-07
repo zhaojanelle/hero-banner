@@ -1,7 +1,12 @@
 html {
   box-sizing: border-box;
+  font: normal 100%/1.5 "Open Sans",sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
