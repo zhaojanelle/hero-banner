@@ -10,3 +10,41 @@ html {
 body {
   margin: 0;
 }
+
+.banner {
+  position: relative;
+  text-align: left;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.img-flex {
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 1.5em;
+  width: 100%;
+  max-width: 50em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  padding: 0;
+  line-height: 1.4;
+  margin: 0 1rem 1.3rem;
+}
+
+.heading {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
+  margin: 0 1rem;
+}
